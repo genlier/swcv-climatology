@@ -1,0 +1,267 @@
+% ============================================================
+% 西南涡项目参考文献（西南涡活动的年代际变化与增暖响应）
+% 整理: Claude (2026-09-02)
+% 说明: 全部条目经网络检索核实存在（作者/年份/期刊/DOI）；
+%       个别条目的卷期页码未在线核实，已加 note 标注，
+%       引用前请按标题回原文核对。
+% 编码: UTF-8; 建议使用 XeLaTeX / biblatex-gb7714 或 zotero 导入
+% ============================================================
+
+% ---------- 数据源 ----------
+
+@article{hersbach2020era5,
+  author  = {Hersbach, Hans and Bell, Bill and Berrisford, Paul and Hirahara, Shoji and Hor{\'a}nyi, Andr{\'a}s and Mu{\~n}oz-Sabater, Joaqu{\'i}n and Nicolas, Julien and Peubey, Carole and Radu, Raluca and Schepers, Dinand and Simmons, Adrian and Soci, Cornel and Abdalla, Saleh and Abellan, Xavier and Balsamo, Gianpaolo and Bechtold, Peter and Biavati, Gionata and Bidlot, Jean and Bonavita, Massimo and De Chiara, Giovanna and Dahlgren, Per and Dee, Dick and Diamantakis, Michail and Dragani, Rossana and Flemming, Johannes and Forbes, Richard and Fuentes, Manuel and Geer, Alan and Haimberger, Leo and Healy, Sean and Hogan, Robin J. and H{\'o}lm, El{\'i}as and Janiskov{\'a}, Marta and Keeley, Sarah and Laloyaux, Patrick and Lopez, Philippe and Lupu, Cristina and Radnoti, Gabor and de Rosnay, Patricia and Rozum, Iryna and Vamborg, Freja and Villaume, Sebastien and Th{\'e}paut, Jean-No{\"e}l},
+  title   = {{The ERA5 global reanalysis}},
+  journal = {Quarterly Journal of the Royal Meteorological Society},
+  year    = {2020},
+  volume  = {146},
+  pages   = {1999--2049},
+  doi     = {10.1002/qj.3803}
+}
+
+@article{lenssen2019gistemp,
+  author  = {Lenssen, Nathan J. L. and Schmidt, Gavin A. and Hansen, James E. and Menne, Matthew J. and Persin, Avraham and Ruedy, Reto and Zyss, Daniel},
+  title   = {{Improvements in the GISTEMP uncertainty model}},
+  journal = {Journal of Geophysical Research: Atmospheres},
+  year    = {2019},
+  volume  = {124},
+  pages   = {6307--6326},
+  doi     = {10.1029/2018JD029522}
+}
+
+@dataset{he2026zenodo,
+  author    = {He, D. and Cao, J.},
+  title     = {A dataset of Southwest China Vortex events based on deep learning and ERA5 reanalysis data},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.15073815},
+  note      = {1940--2023 年 9379 个西南涡事件逐小时公开数据集（CNN 识别），用于识别口径互校}
+}
+
+% ---------- 西南涡统计特征与年代际变化 ----------
+
+@article{ye2016statistics,
+  author  = {叶瑶 and 李国平},
+  title   = {近61年夏半年西南低涡的统计特征与异常发生的流型分析},
+  journal = {高原气象},
+  year    = {2016},
+  note    = {传统天气图口径 1954--2014 夏半年年均约 43 次；卷期页码请按知网核对}
+}
+
+@article{li2017spring,
+  author  = {李黎 and 刘海文 and 吕世华},
+  title   = {春季西南低涡年际和年代际变化特征分析},
+  journal = {高原气象},
+  year    = {2017},
+  volume  = {36},
+  number  = {6},
+  note    = {1979--2013 春季年均 7.5 次、1989 年年代际突变；归因贝加尔湖/乌拉尔山位势异常}
+}
+
+@phdthesis{lijp2012phd,
+  author = {李江萍},
+  title  = {高原低涡的特征、环流形势及水汽轨迹研究},
+  school = {兰州大学},
+  year   = {2012},
+  note   = {高原涡/西南涡/西北涡 1980--2010 频数均呈下降趋势}
+}
+
+@article{sun2026climdyn,
+  author  = {Sun, Xiaoting and Wang, Minghao and Li, Yueqing and Ding, Yihui and Li, Qingquan},
+  title   = {Mechanisms of the interannual variability in occurrence numbers of the Southwest China vortex in summer},
+  journal = {Climate Dynamics},
+  year    = {2026},
+  volume  = {64},
+  number  = {2},
+  doi     = {10.1007/s00382-025-07962-8},
+  note    = {CRA-40 客观识别 1979--2024 夏季年均约 25 个；蒙古气旋-CGT 波列与印度洋增暖→副高机制（本项目最重要对标论文）}
+}
+
+% ---------- 客观识别算法 ----------
+
+@article{wang2024erl,
+  author  = {Wang, Qingyu and Lai, Xin and Huangfu, Jingliang and others},
+  title   = {A new Southwest Vortex objective identification algorithm based on precipitation perspective},
+  journal = {Environmental Research Letters},
+  year    = {2024},
+  volume  = {19},
+  number  = {11},
+  doi     = {10.1088/1748-9326/ad86d0},
+  note    = {降水视角算法（TempestExtremes 框架），识别涡与暴雨相关 0.70}
+}
+
+@article{dong2024wvpsia,
+  author  = {董元昌 and 蒋兴文 and 卢萍 and 肖递祥 and 冯勇 and 张葵},
+  title   = {基于再分析格点资料的西南低涡客观识别新方法及效果评估},
+  journal = {大气科学},
+  year    = {2024},
+  volume  = {48},
+  number  = {6},
+  pages   = {2125--2140},
+  doi     = {10.3878/j.issn.1006-9895.2307.23022},
+  note    = {WVPSIA 风场法，700 hPa，无需平滑预处理，全域命中率 85.71%}
+}
+
+@article{yuan2024pvsia,
+  author  = {Yuan, Chenhu and Qiao, Panjie and Wang, Xiaojuan and Liu, Wenqi and Feng, Guolin and Zhao, Ning and Zhang, Yongwen},
+  title   = {A methodology for identifying southwest vortices in China},
+  journal = {Climate Dynamics},
+  year    = {2024},
+  volume  = {62},
+  number  = {12},
+  pages   = {10669--10681},
+  doi     = {10.1007/s00382-024-07469-8},
+  note    = {PVSIA 高度场+风场联合识别，命中率 94.25%、空报率 5.2%}
+}
+
+@article{he2026bigearth,
+  author  = {He, D. and Cao, J.},
+  title   = {A dataset of Southwest China Vortex events based on deep learning and ERA5 reanalysis data},
+  journal = {Big Earth Data},
+  year    = {2026},
+  volume  = {10},
+  number  = {1},
+  pages   = {685--700},
+  doi     = {10.1080/20964471.2025.2576264},
+  note    = {CNN 识别准确率 97.57%，1940--2023 年 9379 个事件}
+}
+
+% ---------- 高原涡-西南涡耦合 ----------
+
+@article{yushu2017double,
+  author  = {郁淑华 and 高文良},
+  title   = {高原低涡与西南涡结伴而行的不同活动形式个例的环境场和位涡分析},
+  journal = {大气科学},
+  year    = {2017},
+  doi     = {10.3878/j.issn.1006-9895.1612.16213},
+  note    = {1998--2015 统计：高原涡诱发西南涡占 69%、耦合 25%、并存 6%}
+}
+
+@article{huang2023sync,
+  author  = {黄鸿惠 and 李论},
+  title   = {一次青藏高原低涡和西南涡同步变化过程},
+  journal = {应用气象学报},
+  year    = {2023},
+  volume  = {34},
+  number  = {4},
+  pages   = {451--462},
+  doi     = {10.11898/1001-7313.20230406}
+}
+
+@article{zhu2026couple,
+  author  = {朱英菘 and 白爱娟 and 涂朝勇 and 白锦丰 and 诸德强 and 李永千},
+  title   = {高原涡与西南涡耦合作用引发大暴雨的诊断分析},
+  journal = {大气科学},
+  year    = {2026},
+  doi     = {10.3878/j.issn.1006-9895.2512.24134},
+  note    = {在线发表，卷期页码待定}
+}
+
+@article{bai2025atmos,
+  author  = {Bai, Aijuan and Bai, Jinfeng and Wang, Zhao and Tu, Chaoyong},
+  title   = {Formation and Precipitation Processes of the Southwest Vortex Impacted by the Plateau Vortex},
+  journal = {Atmosphere},
+  year    = {2025},
+  volume  = {16},
+  number  = {2},
+  pages   = {115},
+  doi     = {10.3390/atmos16020115}
+}
+
+% ---------- 东移机制与降水影响 ----------
+
+@article{li2024jgr,
+  author  = {Li, Chao and Jiang, Xingwen and Fu, Shenming and Wang, Xiaofang and Sun, Yue and Sun, Jianhua and Zhang, Yuanchun and Yang, Nan},
+  title   = {Latent Heating Effect on the Intensification of Southwest Vortices Over the Downstream Area of the Second-Step Terrain in China},
+  journal = {Journal of Geophysical Research: Atmospheres},
+  year    = {2024},
+  volume  = {129},
+  number  = {17},
+  doi     = {10.1029/2024JD041036},
+  note    = {东移"迎风坡衰减-背风坡重建"与潜热机制}
+}
+
+@article{jinyan2026,
+  author  = {金妍 and 蔺邹兴 and 管理 and others},
+  title   = {东移型西南涡对长三角地区区域性暴雨的影响分析},
+  journal = {水利水电技术（中英文）},
+  year    = {2026},
+  note    = {在线发表；2012--2019 年鉴 716 例中东移型约占 30%，对长三角降水贡献超 10%}
+}
+
+@article{mao2022tracks,
+  author  = {毛程燕 and others},
+  title   = {不同路径移出型西南涡对中国中东部降水的影响},
+  journal = {干旱气象},
+  year    = {2022},
+  volume  = {40},
+  number  = {3},
+  doi     = {10.11755/j.issn.1006-7639(2022)03-0386},
+  note    = {2010--2020 移出型 108 例：东移 58.3%、东北移 27.8%、东南移 12%}
+}
+
+@article{liu2022jjj,
+  author  = {刘淇淇 and 郭立平 and 黄浩杰},
+  title   = {京津冀两次深厚涡旋北上暴雨过程对比分析},
+  journal = {农业灾害研究},
+  year    = {2022},
+  volume  = {12},
+  number  = {4},
+  pages   = {139--141},
+  note    = {2021 年 7 月京津冀暴雨为西南涡东移北上所致}
+}
+
+% ---------- 结构、加热与暴雨机理 ----------
+
+@article{deng2024asym,
+  author  = {邓承之 and 曹洁 and 罗娟 and others},
+  title   = {四川盆地一次暴雨过程中西南低涡非对称结构特征及其成因分析},
+  journal = {暴雨灾害},
+  year    = {2024},
+  volume  = {43},
+  number  = {6},
+  doi     = {10.12406/byzh.2023-239}
+}
+
+@article{zhou2024diabatic,
+  author  = {Zhou, Chunhua and Li, Yueqing},
+  title   = {Characteristics of Atmospheric Diabatic Heating of the Southwest China Vortex That Induces Extreme Rainstorms in Sichuan},
+  journal = {Atmosphere},
+  year    = {2024},
+  volume  = {15},
+  number  = {7},
+  pages   = {861},
+  doi     = {10.3390/atmos15070861}
+}
+
+@article{zhou2024warm,
+  author  = {Zhou, Chunhua and Li, Yueqing},
+  title   = {Dynamic and thermodynamic characteristics of warm-sector rainstorms caused by the southwest China vortex in Sichuan basin},
+  journal = {Theoretical and Applied Climatology},
+  year    = {2024},
+  doi     = {10.1007/s00704-024-05056-9}
+}
+
+@article{ligp2025night,
+  author  = {李国平},
+  title   = {四川盆地周边山地夜间暴雨的特征与机理研究新进展},
+  journal = {沙漠与绿洲气象},
+  year    = {2025},
+  volume  = {19},
+  number  = {3},
+  pages   = {1--9},
+  doi     = {10.12057/j.issn.1002-0799.2409.23002}
+}
+
+% ============================================================
+% 备注: 以下文献已核实存在但未取得完整题录，需补充标题后加入:
+% 1. 赖欣等, 大气科学, 2023, 西南涡研究综述,
+%    DOI: 10.3878/j.issn.1006-9895.2304.23021
+%    (http://www.iapjournals.ac.cn/dqkx/cn/article/doi/10.3878/j.issn.1006-9895.2304.23021)
+% 2. 罗清等, 高原山地气象研究, 2018, 西南涡涡源分类（九龙/小金/盆地涡）,
+%    DOI: 10.3969/j.issn.1674-2184.2018.04.002
+% 3. 周春花、肖递祥、郁淑华, 热带气象学报, 2022, 2020年四川盆地"8·11"暴雨,
+%    DOI: 10.16032/j.issn.1004-4965.2022.075
+% 4. 姚秀萍、李若莹, 气象学报, 2023, 81(6): 853-865, 河南"21·7"暴雨综述,
+%    DOI: 10.11676/qxxb2023.20230038
+% ============================================================
